@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="..\..\libff\common\double.hpp" />
+    <ClInclude Include="..\..\libff\common\profiling.hpp" />
+    <ClInclude Include="..\..\libff\common\utils.hpp" />
+    <ClInclude Include="..\..\libff\algebra\curves\public_params.hpp" />
+    <ClInclude Include="..\..\libff\algebra\curves\alt_bn128\alt_bn128_g1.hpp" />
+    <ClInclude Include="..\..\libff\algebra\curves\alt_bn128\alt_bn128_g2.hpp" />
+    <ClInclude Include="..\..\libff\algebra\curves\alt_bn128\alt_bn128_init.hpp" />
+    <ClInclude Include="..\..\libff\algebra\curves\alt_bn128\alt_bn128_pairing.hpp" />
+    <ClInclude Include="..\..\libff\algebra\curves\alt_bn128\alt_bn128_pp.hpp" />
+    <ClInclude Include="..\..\libff\algebra\curves\bn128\bn128_g1.hpp" />
+    <ClInclude Include="..\..\libff\algebra\curves\bn128\bn128_g2.hpp" />
+    <ClInclude Include="..\..\libff\algebra\curves\bn128\bn128_gt.hpp" />
+    <ClInclude Include="..\..\libff\algebra\curves\bn128\bn128_init.hpp" />
+    <ClInclude Include="..\..\libff\algebra\curves\bn128\bn128_pairing.hpp" />
+    <ClInclude Include="..\..\libff\algebra\curves\bn128\bn128_pp.hpp" />
+    <ClInclude Include="..\..\libff\algebra\curves\edwards\edwards_g1.hpp" />
+    <ClInclude Include="..\..\libff\algebra\curves\edwards\edwards_g2.hpp" />
+    <ClInclude Include="..\..\libff\algebra\curves\edwards\edwards_init.hpp" />
+    <ClInclude Include="..\..\libff\algebra\curves\edwards\edwards_pairing.hpp" />
+    <ClInclude Include="..\..\libff\algebra\curves\edwards\edwards_pp.hpp" />
+    <ClInclude Include="..\..\libff\algebra\curves\mnt\mnt4\mnt4_g1.hpp" />
+    <ClInclude Include="..\..\libff\algebra\curves\mnt\mnt4\mnt4_g2.hpp" />
+    <ClInclude Include="..\..\libff\algebra\curves\mnt\mnt4\mnt4_init.hpp" />
+    <ClInclude Include="..\..\libff\algebra\curves\mnt\mnt4\mnt4_pairing.hpp" />
+    <ClInclude Include="..\..\libff\algebra\curves\mnt\mnt4\mnt4_pp.hpp" />
+    <ClInclude Include="..\..\libff\algebra\curves\mnt\mnt6\mnt6_g1.hpp" />
+    <ClInclude Include="..\..\libff\algebra\curves\mnt\mnt6\mnt6_g2.hpp" />
+    <ClInclude Include="..\..\libff\algebra\curves\mnt\mnt6\mnt6_init.hpp" />
+    <ClInclude Include="..\..\libff\algebra\curves\mnt\mnt6\mnt6_pairing.hpp" />
+    <ClInclude Include="..\..\libff\algebra\curves\mnt\mnt6\mnt6_pp.hpp" />
+    <ClInclude Include="..\..\libff\algebra\curves\mnt\mnt46_common.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\libff\common\double.cpp" />
+    <ClCompile Include="..\..\libff\common\profiling.cpp" />
+    <ClCompile Include="..\..\libff\common\utils.cpp" />
+    <ClCompile Include="..\..\libff\algebra\curves\alt_bn128\alt_bn128_g1.cpp" />
+    <ClCompile Include="..\..\libff\algebra\curves\alt_bn128\alt_bn128_g2.cpp" />
+    <ClCompile Include="..\..\libff\algebra\curves\alt_bn128\alt_bn128_init.cpp" />
+    <ClCompile Include="..\..\libff\algebra\curves\alt_bn128\alt_bn128_pairing.cpp" />
+    <ClCompile Include="..\..\libff\algebra\curves\alt_bn128\alt_bn128_pp.cpp" />
+    <ClCompile Include="..\..\libff\algebra\curves\bn128\bn128_g1.cpp" />
+    <ClCompile Include="..\..\libff\algebra\curves\bn128\bn128_g2.cpp" />
+    <ClCompile Include="..\..\libff\algebra\curves\bn128\bn128_gt.cpp" />
+    <ClCompile Include="..\..\libff\algebra\curves\bn128\bn128_init.cpp" />
+    <ClCompile Include="..\..\libff\algebra\curves\bn128\bn128_pairing.cpp" />
+    <ClCompile Include="..\..\libff\algebra\curves\bn128\bn128_pp.cpp" />
+    <ClCompile Include="..\..\libff\algebra\curves\edwards\edwards_g1.cpp" />
+    <ClCompile Include="..\..\libff\algebra\curves\edwards\edwards_g2.cpp" />
+    <ClCompile Include="..\..\libff\algebra\curves\edwards\edwards_init.cpp" />
+    <ClCompile Include="..\..\libff\algebra\curves\edwards\edwards_pairing.cpp" />
+    <ClCompile Include="..\..\libff\algebra\curves\edwards\edwards_pp.cpp" />
+    <ClCompile Include="..\..\libff\algebra\curves\mnt\mnt4\mnt4_g1.cpp" />
+    <ClCompile Include="..\..\libff\algebra\curves\mnt\mnt4\mnt4_g2.cpp" />
+    <ClCompile Include="..\..\libff\algebra\curves\mnt\mnt4\mnt4_init.cpp" />
+    <ClCompile Include="..\..\libff\algebra\curves\mnt\mnt4\mnt4_pairing.cpp" />
+    <ClCompile Include="..\..\libff\algebra\curves\mnt\mnt4\mnt4_pp.cpp" />
+    <ClCompile Include="..\..\libff\algebra\curves\mnt\mnt6\mnt6_g1.cpp" />
+    <ClCompile Include="..\..\libff\algebra\curves\mnt\mnt6\mnt6_g2.cpp" />
+    <ClCompile Include="..\..\libff\algebra\curves\mnt\mnt6\mnt6_init.cpp" />
+    <ClCompile Include="..\..\libff\algebra\curves\mnt\mnt6\mnt6_pairing.cpp" />
+    <ClCompile Include="..\..\libff\algebra\curves\mnt\mnt6\mnt6_pp.cpp" />
+    <ClCompile Include="..\..\libff\algebra\curves\mnt\mnt46_common.cpp" />
+  </ItemGroup>
+</Project>

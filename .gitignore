@@ -1,2 +1,11 @@
 /build/
 /.idea/
+
+/build-*/
+/build_*/
+*.lnk
+*.aps
+.vs/
+ipch/
+*.VC.db
+*.VC.opendb

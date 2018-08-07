@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\depends\ate-pairing\src\zm.cpp" />
+    <ClCompile Include="..\..\depends\ate-pairing\src\zm2.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\depends\ate-pairing\include\zm.h" />
+    <ClInclude Include="..\..\depends\ate-pairing\include\zm2.h" />
+  </ItemGroup>
+</Project>
