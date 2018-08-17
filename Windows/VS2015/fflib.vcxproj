@@ -210,6 +210,7 @@ mkdir "$(SolutionDir)..\..\..\..\build_msvc14_$(Platform)\$(Configuration)\inclu
 mkdir "$(SolutionDir)..\..\..\..\build_msvc14_$(Platform)\$(Configuration)\include\libff\algebra\fields"
 mkdir "$(SolutionDir)..\..\..\..\build_msvc14_$(Platform)\$(Configuration)\include\libff\common"
 xcopy "$(SolutionDir)..\..\libff\*.hpp" "$(SolutionDir)..\..\..\..\build_msvc14_$(Platform)\$(Configuration)\include\libff\" /E /I /R /Y /D
+xcopy "$(SolutionDir)..\..\libff\*.tcc" "$(SolutionDir)..\..\..\..\build_msvc14_$(Platform)\$(Configuration)\include\libff\" /E /I /R /Y /D
 </Command>
     </PostBuildEvent>
     <PostBuildEvent>
@@ -240,6 +241,7 @@ mkdir "$(SolutionDir)..\..\..\..\build_msvc14_$(Platform)\$(Configuration)\inclu
 mkdir "$(SolutionDir)..\..\..\..\build_msvc14_$(Platform)\$(Configuration)\include\libff\algebra\fields"
 mkdir "$(SolutionDir)..\..\..\..\build_msvc14_$(Platform)\$(Configuration)\include\libff\common"
 xcopy "$(SolutionDir)..\..\libff\*.hpp" "$(SolutionDir)..\..\..\..\build_msvc14_$(Platform)\$(Configuration)\include\libff\" /E /I /R /Y /D
+xcopy "$(SolutionDir)..\..\libff\*.tcc" "$(SolutionDir)..\..\..\..\build_msvc14_$(Platform)\$(Configuration)\include\libff\" /E /I /R /Y /D
 </Command>
     </PostBuildEvent>
     <PostBuildEvent>
@@ -274,6 +276,7 @@ mkdir "$(SolutionDir)..\..\..\..\build_msvc14_$(Platform)\$(Configuration)\inclu
 mkdir "$(SolutionDir)..\..\..\..\build_msvc14_$(Platform)\$(Configuration)\include\libff\algebra\fields"
 mkdir "$(SolutionDir)..\..\..\..\build_msvc14_$(Platform)\$(Configuration)\include\libff\common"
 xcopy "$(SolutionDir)..\..\libff\*.hpp" "$(SolutionDir)..\..\..\..\build_msvc14_$(Platform)\$(Configuration)\include\libff\" /E /I /R /Y /D
+xcopy "$(SolutionDir)..\..\libff\*.tcc" "$(SolutionDir)..\..\..\..\build_msvc14_$(Platform)\$(Configuration)\include\libff\" /E /I /R /Y /D
 </Command>
     </PostBuildEvent>
     <PostBuildEvent>
@@ -308,6 +311,7 @@ mkdir "$(SolutionDir)..\..\..\..\build_msvc14_$(Platform)\$(Configuration)\inclu
 mkdir "$(SolutionDir)..\..\..\..\build_msvc14_$(Platform)\$(Configuration)\include\libff\algebra\fields"
 mkdir "$(SolutionDir)..\..\..\..\build_msvc14_$(Platform)\$(Configuration)\include\libff\common"
 xcopy "$(SolutionDir)..\..\libff\*.hpp" "$(SolutionDir)..\..\..\..\build_msvc14_$(Platform)\$(Configuration)\include\libff\" /E /I /R /Y /D
+xcopy "$(SolutionDir)..\..\libff\*.tcc" "$(SolutionDir)..\..\..\..\build_msvc14_$(Platform)\$(Configuration)\include\libff\" /E /I /R /Y /D
 </Command>
     </PostBuildEvent>
     <PostBuildEvent>
